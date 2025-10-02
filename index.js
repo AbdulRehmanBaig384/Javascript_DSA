@@ -35,30 +35,30 @@ for (let i=1;i<=10;i++){
     console.log(sum)
 }
 
-// let array=[1,-2,3,4,-5]
-// let min =array[0]
-// for (let i=0;i<array.length;i++){
-//   if(array[i]<min){
-//     min=array[i]
+let array=[1,-2,3,4,-5]
+let min =array[0]
+for (let i=0;i<array.length;i++){
+  if(array[i]<min){
+    min=array[i]
     
-//   }
-// }
-// console.log(min)
+  }
+}
+console.log(min)
 
-// let number=5
-// let numbers
-// for(let i=4;i>=1;i--){
-//    number=number*i
+let number=5
+let numbers
+for(let i=4;i>=1;i--){
+   number=number*i
 
-// }
-// console.log(number)
+}
+console.log(number)
 
 
-// let sum=0
-// for(let i=0;i<=100;i++){
-//    sum+=i
-// }
-// console.log(sum)
+let sum=0
+for(let i=0;i<=100;i++){
+   sum+=i
+}
+console.log(sum)
 
 
 // let words='hello world'
@@ -146,6 +146,7 @@ for(let i=1;i<=4;i++){
     console.log(row)
 
 }
+
 
 
 
