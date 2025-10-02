@@ -1,7 +1,7 @@
-// let a=3
-// let b=4
-// let c =a+b
-// console.log(c)
+let a=3
+let b=4
+let c =a+b
+console.log(c)
 
 // let arr=[1,2,3,4,14,13]
 //     let max=arr[0]
@@ -144,4 +144,5 @@ for(let i=1;i<=4;i++){
         row+=j
     }
     console.log(row)
+
 }
