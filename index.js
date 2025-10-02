@@ -61,33 +61,33 @@ for(let i=0;i<=100;i++){
 console.log(sum)
 
 
-// let words='hello world'
-// for(let i=words.length;i>=0;i--){
-//    console.log(words[i])
-// }
+let words='hello world'
+for(let i=words.length;i>=0;i--){
+   console.log(words[i])
+}
 
-// let a=1
-// let b=0
-// n=10
-// console.log(b)
-// console.log(a)
-// for(let i=2;i<n;i++){
-//    let next=a+b
-//    console.log(next)
-//    b=a;
-//    a=next
-// };
-
-
+let a=1
+let b=0
+n=10
+console.log(b)
+console.log(a)
+for(let i=2;i<n;i++){
+   let next=a+b
+   console.log(next)
+   b=a;
+   a=next
+};
 
 
-// let a=30
-// let b=40
-// a=a+b
-// b=a-b
-// a=a-b
 
-// console.log(a,b)
+
+let a=30
+let b=40
+a=a+b
+b=a-b
+a=a-b
+
+console.log(a,b)
 
 // let c=true
 // c++
@@ -146,6 +146,7 @@ for(let i=1;i<=4;i++){
     console.log(row)
 
 }
+
 
 
 
