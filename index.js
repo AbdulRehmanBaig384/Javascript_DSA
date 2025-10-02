@@ -3,16 +3,16 @@ let b=4
 let c =a+b
 console.log(c)
 
-// let arr=[1,2,3,4,14,13]
-//     let max=arr[0]
-//     for(let i=0;i<=arr.length;i++){
-//         if(arr[i]>max){
-//             max=arr[i]
+let arr=[1,2,3,4,14,13]
+    let max=arr[0]
+    for(let i=0;i<=arr.length;i++){
+        if(arr[i]>max){
+            max=arr[i]
             
-//         }
+        }
        
-//     }
-//     console.log(max)
+    }
+    console.log(max)
 
 
 
@@ -146,3 +146,4 @@ for(let i=1;i<=4;i++){
     console.log(row)
 
 }
+
