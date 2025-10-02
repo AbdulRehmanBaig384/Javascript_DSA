@@ -28,12 +28,12 @@ for(let i=0;i<=10;i++){
     console.log(i)
 }
 
-// let n=5;
-// for (let i=1;i<=10;i++){
-//     let sum=n*i
+let n=5;
+for (let i=1;i<=10;i++){
+    let sum=n*i
 
-//     console.log(sum)
-// }
+    console.log(sum)
+}
 
 // let array=[1,-2,3,4,-5]
 // let min =array[0]
@@ -146,6 +146,7 @@ for(let i=1;i<=4;i++){
     console.log(row)
 
 }
+
 
 
 
