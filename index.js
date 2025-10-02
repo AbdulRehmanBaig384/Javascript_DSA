@@ -89,53 +89,53 @@ a=a-b
 
 console.log(a,b)
 
-// let c=true
-// c++
-// console.log(c)
-// console.log(Math.round((Math.random()*5000+1000)))
+let c=true
+c++
+console.log(c)
+console.log(Math.round((Math.random()*5000+1000)))
 
-// // var ans=Number(prompt("Enter your age"))
-// // console.log(ans)
+// var ans=Number(prompt("Enter your age"))
+// console.log(ans)
 
-// 12>3?console.log(true):console.log(false)
+12>3?console.log(true):console.log(false)
 
 
-// for(let i=1;i<=10;i++){
-//         console.log('Multiplication table of',i)
+for(let i=1;i<=10;i++){
+        console.log('Multiplication table of',i)
 
-//     for(let j=1;j<=10;j++){
+    for(let j=1;j<=10;j++){
      
-//         console.log(`${i} * ${j} =`,i*j)
-//     }
-// }
+        console.log(`${i} * ${j} =`,i*j)
+    }
+}
 
 
-// for(let i=0;i<=4;i++){
-//     let row=''
-//     for(let j=1;j<=3;j++){
-//         row+='*'
-//       }
-//       console.log(row)
-// }
+for(let i=0;i<=4;i++){
+    let row=''
+    for(let j=1;j<=3;j++){
+        row+='*'
+      }
+      console.log(row)
+}
 
 
-// for(let i=1;i<=4;i++){
-//     let row=''
-//     for(let j=i;j>=1;j--){
+for(let i=1;i<=4;i++){
+    let row=''
+    for(let j=i;j>=1;j--){
      
-//         row+='*'
-//     }
-//     console.log(row)
-// }
+        row+='*'
+    }
+    console.log(row)
+}
 
 
-// for(let i=1;i<=4;i++){
-//     let row=''
-//     for(let j=4;j>=i;j--){
-//         row+='*'
-//     }
-//     console.log(row)
-// }
+for(let i=1;i<=4;i++){
+    let row=''
+    for(let j=4;j>=i;j--){
+        row+='*'
+    }
+    console.log(row)
+}
 
 
 for(let i=1;i<=4;i++){
@@ -146,6 +146,7 @@ for(let i=1;i<=4;i++){
     console.log(row)
 
 }
+
 
 
 
