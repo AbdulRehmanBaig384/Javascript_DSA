@@ -147,6 +147,80 @@ for(let i=1;i<=4;i++){
 
 }
 
+// let prime_number=true
+// let n=17
+// for(let i=2;i<=Math.floor(n/2);i++){
+//     if(n%i===0){
+//         prime_number=false
+//         break;
+//     }
+    
+// }
+// console.log(prime_number)
+
+
+// var n=10
+// let i=1
+// while(i<=n){
+//     console.log(i)
+//     i++
+// }
+
+// 1234
+
+// var input=Number(prompt("Enter the numbers"))
+// if(isNaN(input)){
+//     console.log('Please enter the numbers')
+// }
+//   var sum=0;
+// while(input > 0){
+//     let remaining=Math.floor(input%10)
+//   input=Math.floor(input/10)
+//     sum+=remaining;
+// }
+// console.log(sum)
+
+
+
+// var input=Number(prompt("Enter your number to reverse it"))
+// console.log(input)
+// if(isNaN(input)){
+//     console.log("Please enter the number to reverse it ")
+// }
+// var rem=0
+// var reverse=''
+// while(input>0){
+//     // 1234
+//     //4321
+//     rem =Math.floor(input%10) 
+//       input=Math.floor(input/10)  //4
+//     reverse+=rem  //4321
+// }
+// console.log(reverse)
+
+
+//Strong numbers
+
+var input=Number(prompt("Enter the strong number"))
+
+if(isNaN(input)){
+    console.log('Please enter the Strong Number')}
+    var sum=0
+    while(input>0){  ///145
+        var digit=input%10  //5
+        if(digit>0){
+            for(let i=digit-1;i>=1;i--){
+                 digit=digit*i
+            }  
+        }
+        else if(digit===0){
+            sum+=digit
+        }
+          input=Math.floor(input/10)
+        sum+=digit
+             
+    }
+    console.log(sum)
 
 
 
