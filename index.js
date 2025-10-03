@@ -147,16 +147,16 @@ for(let i=1;i<=4;i++){
 
 }
 
-// let prime_number=true
-// let n=17
-// for(let i=2;i<=Math.floor(n/2);i++){
-//     if(n%i===0){
-//         prime_number=false
-//         break;
-//     }
+let prime_number=true
+let n=17
+for(let i=2;i<=Math.floor(n/2);i++){
+    if(n%i===0){
+        prime_number=false
+        break;
+    }
     
-// }
-// console.log(prime_number)
+}
+console.log(prime_number)
 
 
 // var n=10
@@ -221,6 +221,7 @@ if(isNaN(input)){
              
     }
     console.log(sum)
+
 
 
 
