@@ -168,17 +168,17 @@ while(i<=n){
 
 // 1234
 
-// var input=Number(prompt("Enter the numbers"))
-// if(isNaN(input)){
-//     console.log('Please enter the numbers')
-// }
-//   var sum=0;
-// while(input > 0){
-//     let remaining=Math.floor(input%10)
-//   input=Math.floor(input/10)
-//     sum+=remaining;
-// }
-// console.log(sum)
+var input=Number(prompt("Enter the numbers"))
+if(isNaN(input)){
+    console.log('Please enter the numbers')
+}
+  var sum=0;
+while(input > 0){
+    let remaining=Math.floor(input%10)
+  input=Math.floor(input/10)
+    sum+=remaining;
+}
+console.log(sum)
 
 
 
@@ -221,6 +221,7 @@ if(isNaN(input)){
              
     }
     console.log(sum)
+
 
 
 
