@@ -161,10 +161,10 @@ console.log(prime_number)
 
 // var n=10
 // let i=1
-// while(i<=n){
-//     console.log(i)
-//     i++
-// }
+while(i<=n){
+    console.log(i)
+    i++
+}
 
 // 1234
 
@@ -221,6 +221,7 @@ if(isNaN(input)){
              
     }
     console.log(sum)
+
 
 
 
