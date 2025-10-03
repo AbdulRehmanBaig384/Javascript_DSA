@@ -182,21 +182,21 @@ console.log(sum)
 
 
 
-// var input=Number(prompt("Enter your number to reverse it"))
-// console.log(input)
-// if(isNaN(input)){
-//     console.log("Please enter the number to reverse it ")
-// }
-// var rem=0
-// var reverse=''
-// while(input>0){
-//     // 1234
-//     //4321
-//     rem =Math.floor(input%10) 
-//       input=Math.floor(input/10)  //4
-//     reverse+=rem  //4321
-// }
-// console.log(reverse)
+var input=Number(prompt("Enter your number to reverse it"))
+console.log(input)
+if(isNaN(input)){
+    console.log("Please enter the number to reverse it ")
+}
+var rem=0
+var reverse=''
+while(input>0){
+    // 1234
+    //4321
+    rem =Math.floor(input%10) 
+      input=Math.floor(input/10)  //4
+    reverse+=rem  //4321
+}
+console.log(reverse)
 
 
 //Strong numbers
@@ -221,6 +221,7 @@ if(isNaN(input)){
              
     }
     console.log(sum)
+
 
 
 
