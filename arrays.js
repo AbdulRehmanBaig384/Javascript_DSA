@@ -40,23 +40,23 @@ for(let i=0;i<array.length;i++){
 
 
 
-// let array=[1,2,3,4,5,6,7,5,9]
-// let max=array[0]
-// let secmax=array[0]  //3
+let array=[1,2,3,4,5,6,7,5,9]
+let max=array[0]
+let secmax=array[0]  //3
 
-// for(let i=0;i<array.length;i++){
-//   if(array[i]>max){
-//     secmax=max
-//     max=array[i]
+for(let i=0;i<array.length;i++){
+  if(array[i]>max){
+    secmax=max
+    max=array[i]
      
-//   } else if(array[i]>secmax && array[i]!==max){
-//     secmax=array[i]
-//   }
+  } else if(array[i]>secmax && array[i]!==max){
+    secmax=array[i]
+  }
 
 
-//   //
-//   }
-//   console.log(max,secmax)
+  //
+  }
+  console.log(max,secmax)
 
 
 
