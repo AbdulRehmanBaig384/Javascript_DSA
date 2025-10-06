@@ -13,9 +13,9 @@ let numbers = [10, 5, 20, 3, 15, 8];
 let limit = 10;
 console.log("Numbers less than", limit, ":", findNumbersLessThan(numbers,limit));
 
-// output
-// PS C:\Users\PMLS\Desktop\New folder> node arrays.js
-// Numbers less than 10 : [ 5, 3, 8 ]
+//output
+PS C:\Users\PMLS\Desktop\New folder> node arrays.js
+Numbers less than 10 : [ 5, 3, 8 ]
 
 
 
